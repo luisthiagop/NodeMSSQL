@@ -1,0 +1,22 @@
+{
+   "type": "mssql",
+   "host": "localhost",
+   "username": "sa",
+   "password": "yourStrong(!)Password",
+   "schema": "dbo",
+   "database": "teste_quiver",
+   "entities": [
+      "src/entity/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
