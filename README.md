@@ -97,7 +97,7 @@ Passos para utilizar o projeto:
 }
 ```
 
-2. [POST] http://localhost:3333/telefone 
+3. [POST] http://localhost:3333/telefone
    [PATCH, DELETE] http://localhost:3333/telefone/:id
 * A rota POST recebe um JSON com o as propriedades do telefone e o identificador do cliente.
 * A rota PATCH recebe um identificador, :id, como parâmetro na rota e um JSON com as novas propriedades do telefone a ser editado.
